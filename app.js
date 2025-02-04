@@ -5,7 +5,7 @@ const cors = require('cors')
 const express = require('express')
 const app = express()
 
-// controller
+// controller 
 const stripeController = require('./controllers/stripeController')
 // error handler
 const notFoundMiddleware = require('./middleware/not-found')
