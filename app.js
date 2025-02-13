@@ -14,7 +14,7 @@ const errorHandlerMiddleware = require('./middleware/error-handler')
 app.use(express.json())
 app.use(cors())
 
-// stripe
+// stripe 
 app.post('/create-payment-intent', stripeController)
 app.use(notFoundMiddleware)
 app.use(errorHandlerMiddleware)
