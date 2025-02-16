@@ -10,7 +10,6 @@ var stripe = Stripe(
 );
 
 // The items the customer wants to buy
-
 // Disable the button until we have Stripe set up on the page
 document.querySelector('button').disabled = true;
 fetch('/stripe', {
